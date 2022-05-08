@@ -18,9 +18,10 @@ python version- 3.6.2
 In repo you can find file Face_recognition.ipynb(functional approach) and use it for quick result. Or you can choose FaceTrainer.py and FaceDetector.py(OOP approach).
 <details>
   <summary><em>Data preparation</em></summary>
-  
+  You can make your custom dataset with the structure:
+  <p float="left">
+  <img src="https://user-images.githubusercontent.com/58363847/167315160-07907da6-fe24-44c0-8431-d7c9cb5befaf.jpg"/>
 </details>
-
 <details>
   <summary><em>Detection of the face with MTCNN</em></summary>
   <br>
