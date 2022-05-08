@@ -30,7 +30,7 @@ class FaceTrainer:
         self.dataset_train = os.path.join(project_dirpath, 'faces_dataset\\train\\')
         self.dataset_val = os.path.join(project_dirpath, "faces_dataset\\val\\")
         self.faces_npz = os.path.join(project_dirpath, "face_train_dataset.npz")
-        self.keras_facenet = os.path.join(project_dirpath, "facenet_keras.h5")
+        self.keras_facenet = os.path.join(project_dirpath, "keras_facenet\\model\\facenet_keras.h5")
         self.faces_embeddings = os.path.join(project_dirpath, "faces_dataset_embeddings.npz")
         self.svm_classifier = os.path.join(project_dirpath, "SVM_classifier.sav")
 
