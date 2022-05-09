@@ -1,6 +1,5 @@
 # Face-recognition-real_time
 Using FaceNet, MTCNN and SVM to solve face recognition problem in real-time.
-![eye]()
 <img src="https://user-images.githubusercontent.com/58363847/167313443-9e2c1da3-5b93-46af-a943-2a029c81c846.jpg" width="500" height="400" /><br>
 To see the video of webcam real-time detection click:
 <a href="https://youtu.be/2NHvwepAyAk">Face recognition with FaceNet</a>
@@ -17,26 +16,26 @@ python version- 3.6.2
 </p>
 In repo you can find file Face_recognition.ipynb(functional approach) and use it for quick result. Or you can choose FaceTrainer.py and FaceDetector.py(OOP approach).
 <details>
+
   <summary><em>Data preparation</em></summary>
-  You can make your custom dataset with the structure:
-  <p float="left">
-  <img src="https://user-images.githubusercontent.com/58363847/167315160-07907da6-fe24-44c0-8431-d7c9cb5befaf.jpg"/>
+  You can make your custom dataset with the structure - one subdirectory for each person: <br>
+  <img src="https://user-images.githubusercontent.com/58363847/167355965-eb791e52-a8d9-4381-8c63-719b12fbe5bd.jpg" wight = 400 height =400/><br>
+  By working with this project FaceNet badly recognized people on selfies that's why I need to do augmentation. The augmentation function resizes the original photo
+  and overlays it on a bigger background.
 </details>
 <details>
   <summary><em>Detection of the face with MTCNN</em></summary>
   <br>
   Sample result(trainbatch):
-  <img src="https://user-images.githubusercontent.com/58363847/160628173-d09993c5-420c-4478-8d85-8d82823ce914.jpg"/>
   <br>
   Dependence of metrics on the number of epochs:
   <br>
-  <img src="https://user-images.githubusercontent.com/58363847/160479943-216305e3-994a-4d3a-b8f4-77b10f99df99.png"/>
   </details>
 <details>
   <summary><em>Creating an embedings with FaceNet</em></summary>
   I use pretrained FaceNet because of the fact that recognition NN need to be train on a large dataset. You can find and download model
-  <a href="https://github.com/nyoki-mtl/keras-facenet">here</a>. We need embedings to perform vector classification. The FaceNet model can be used as part of the classifier itself,
-  or we can use the FaceNet model to pre-process a face to create a face embedding that can be stored and used as input to our classifier model.
+  <a href="https://github.com/nyoki-mtl/keras-facenet">here</a>. We need embedings to perform vector classification. The FaceNet model can be used as part of the
+  classifier itself, or we can use the FaceNet model to pre-process a face to create a face embedding that can be stored and used as input to our classifier model.
   This latter approach is preferred as the FaceNet model is both large and slow to create a face embedding.
   </details>
   <details>
