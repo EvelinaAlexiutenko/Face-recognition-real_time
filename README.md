@@ -6,7 +6,7 @@ To see the video of webcam real-time detection click:
 Or to see how does it work if some part of the face is hidden:
 <a href="https://youtu.be/MV_SIRYCpy0">Face recognition in details</a>
 <br>
-In repo you can find file Face_recognition.ipynb(functional approach) and use it for quick result. Or you can choose FaceTrainer.py and FaceDetector.py(OOP approach).
+In repo you can find file <a href="https://youtu.be/MV_SIRYCpy0">Face_recognition.ipynb(functional approach)</a>  and use it for quick result. Or you can choose FaceTrainer.py and FaceDetector.py(OOP approach).
 ## Requirements:
 cuda_11.2 <br>
 python version- 3.6.2
@@ -45,34 +45,39 @@ python version- 3.6.2
   </details>
   <details>
   <summary><em>Real-time webcam face recognition</em></summary>
-  
+  You can find video of testing my real-time webcam demo in the link above. Also by running file FaceDetector.py you can test it by yourself. But before it you need to   built training dataset and make embedins be running FaceTrainder.py. For faster recognition you need to use CUDA. 
   </details>
 <details>
   <summary><em>References</em></summary>
   
-  1. https://public.roboflow.com/object-detection/uno-cards - Uno cards dataset;
+  1. https://arxiv.org/pdf/1503.03832.pdf - FaceNet;
   
-  2. https://github.com/ultralytics/yolov5 - Original repo of YOLOv5;
+  2. https://medium.com/analytics-vidhya/introduction-to-facenet-a-unified-embedding-for-face-recognition-and-clustering-dbdac8e6f02 - Good FaceNet explanation;
   
-  3. https://models.roboflow.com/ - Model zoo from roboflow;
+  3. https://medium.com/@iselagradilla94/multi-task-cascaded-convolutional-networks-mtcnn-for-face-detection-and-facial-landmark-alignment-7c21e8007923 - MTCNN;
   
-  4. https://www.youtube.com/watch?v=nDPWywWRIRo&t=3256s&ab_channel=StanfordUniversitySchoolofEngineering - Basic Object Detection knowledge;
+  4. https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/;
   
-  5. https://www.youtube.com/watch?v=MdF6x6ZmLAY&t=1508s - Yolov5 tutorial;
+  5. https://github.com/davidsandberg/facenet -FaceNet original repo;
   
-  6. https://www.youtube.com/watch?v=NU9Xr_NYslo&t=607s - Yolov5 tutorial;
+  6. Basic theory from Deeplearning.ai:
+    https://www.youtube.com/watch?v=-FfMVnwXrZ0&list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&index=33&ab_channel=DeepLearningAI
+    https://www.youtube.com/watch?v=96b_weTZb2w&list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&index=34&ab_channel=DeepLearningAI
+    https://www.youtube.com/watch?v=6jfw8MuKwpI&list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&index=35&ab_channel=DeepLearningAI
+    https://www.youtube.com/watch?v=d2XB5-tuCWU&list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&index=36&ab_channel=DeepLearningAI
+    https://www.youtube.com/watch?v=0NSLgoEtdnw&list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&index=37&ab_channel=DeepLearningAI
  
   7. https://www.youtube.com/watch?v=yfDjsuxIKA4&t=2718s - Training other models using Tensorflow Object Detection;
   
-  8. https://www.youtube.com/watch?v=pnntrewH0xg&t=151s - Example of web-app for testing your model;
+  8. https://www.youtube.com/watch?v=LUO385H9A4c&t=2306s&ab_channel=NTA.DataScience%D0%B8AI%D0%B2%D0%B0%D1%83%D0%B4%D0%B8%D1%82%D0%B5 - Face Recognition with FaceNET;
   
-  9. https://www.youtube.com/watch?v=TB-fdISzpHQ&t=3717s - Another Basic Object Detection knowledge;
+  9. https://youtu.be/cyRHeNQL0-4 - Top 6 NN for solving face recognition problem;
   
-  10. https://towardsdatascience.com/yolo-v4-or-yolo-v5-or-pp-yolo-dad8e40f7109 - Difference between the last YOLO-type models;
+  10. https://github.com/ram-ch/RealTimeFaceRecognition - Good another github repo of solving this problem;
   
-  11. https://techzizou.com/category/object-detection/ - Web app on tf2;
+  11. https://youtu.be/lwcLwhXbi1M - Good video about solving this problem;
   
-  12. https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md - model zoo(tf2);
+  12. https://towardsdatascience.com/face-detection-using-mtcnn-a-guide-for-face-extraction-with-a-focus-on-speed-c6d59f82d49 - faster MTCNN ;
   </ul>
 </details>
 <br>
