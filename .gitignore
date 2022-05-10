@@ -13,7 +13,7 @@ __pycache__/
 # Data
 keras_facenet/
 venv/
-
+demo_images_videos/
 # Files
 
 *.sav
