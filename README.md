@@ -41,7 +41,7 @@ python version- 3.6.2
   We will use the SVM classifier model to predict by embedding the identity of a given face.<br>
   Testing on validation sample:
   <br>
-  <img src="https://user-images.githubusercontent.com/58363847/167361413-f0a186a2-969a-44e1-bb61-879f8ec76246.jpg" wight = 300 height =300/><br>
+  <img src="https://user-images.githubusercontent.com/58363847/167368208-6ed927fe-fdf6-4576-9c4e-6bcd2804c29c.jpg" wight = 300 height =300/><br>
   </details>
   <details>
   <summary><em>Real-time webcam face recognition</em></summary>
